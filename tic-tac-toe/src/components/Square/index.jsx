@@ -1,8 +1,9 @@
 import React from 'react'
+import css from '../../styles/styles.module.css'
 
 function Square({mark, handleClick, id}) {
 	return (
-		<button id={id} onClick={handleClick}>
+		<button className={css.button} id={id} onClick={handleClick}>
 			{mark}
 		</button>
 	)

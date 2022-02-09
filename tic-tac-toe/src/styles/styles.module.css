@@ -1,12 +1,26 @@
-.gridContainer{
-    display: grid;
-    background-color: black;
-    aspect-ratio: 1/1;
-    width: 80%;
-    height: auto;
-    max-height: 80vh;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    grid-template-columns: repeat(3, 1fr);
+.gridContainer {
+	display: grid;
+	background-color: white;
+	aspect-ratio: 1/1;
+	width: 70%;
+	height: auto;
+	max-height: 80vh;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5px;
+	border: none;
+}
+.button {
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	color: white;
+	font-weight: 700;
+	font-size: 1.3rem;
+	background-color: black;
+	width: 100px;
+	height: 100px;
 }
