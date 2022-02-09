@@ -34,7 +34,7 @@ function Game() {
 	// }
 	return (
 		<div>
-			Game
+			{xIsNext ? <p>Player 1(X) is next</p> : <p>Player 2(O) is next</p>}
 			<Board board={board} xIsNext={xIsNext} handleClick={handleClick} />
 		</div>
 	)
