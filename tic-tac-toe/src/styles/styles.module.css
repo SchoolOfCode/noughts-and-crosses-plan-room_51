@@ -1,0 +1,10 @@
+.gridContainer{
+    display: grid;
+    background-color: black;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    grid-template-columns: repeat(3, 1fr);
+}
