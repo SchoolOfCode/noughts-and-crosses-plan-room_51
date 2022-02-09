@@ -1,8 +1,10 @@
 .gridContainer{
     display: grid;
     background-color: black;
+    aspect-ratio: 1/1;
     width: 80%;
-    height: 80%;
+    height: auto;
+    max-height: 80vh;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
